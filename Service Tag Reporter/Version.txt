@@ -1,0 +1,64 @@
+Service Tag reporter is a software based utility that fetches warranty information from Dell's Warranty tracking servers.
+Enter in the desired service tags into the left hand input window and click 'Query Tags' to get a list of products and thier 
+associated warranties. If you need to find out the service tag of a remote workstation in your network enter the machine name 
+or IP address next to the 'Find Tag' button. Click on the button and the service tag will be added to the input box.
+
+Much Thanks to Wendell Fernandes for providing the icon design to the public domain. His website is here: 
+http://www.dellustrations.com/
+
+
+Version Information:
+
+1.6.0.0
+* Warranty fetch improvements
+* Invalid service tags no longer return warranties
+* Update to discard the new 'digital warranties' being reported by Dell
+
+1.5.0.0
+* Peformance upgrade
+* UI redone to be more user-friendly
+* Menu options added
+
+1.4.1.1
+* Minor performance tweaks
+
+1.4.1.0
+* More Speed improvements
+* Fixed bug in resolving invalid hostnames with 'Find Tag' button
+* Fixed Gui issue - status now states when done
+
+1.4.0.1
+* Fixed resizing issues
+* Fixed Model column display bug
+
+1.4.0.0
+* Updated code to fetch from Dell's new SOAP service, resulting in faster reponses
+* Fixed model column in results to display series and model number
+* Various speed fixes
+
+1.1.3.0
+* Fixed GUI Elements
+* Datagrid now fills dynamicly
+* Fixed Installer shortcuts not showing proper icon
+
+1.1.2.0
+* Added Progress Bar
+* Added status Bar
+* Input is not split by line carriages
+* Fixed bug in spaces in serial numbers
+* Known Bug: Status bar not updating in each loop
+* Updated installer: now uses traditional instead of clickonce
+
+1.1.0.1
+* Fixed Resizing Issue
+* Updated installer path
+
+1.1.0.0
+* Changed visual style to WPF
+* Changed output to a DataGrid
+* Added Find Serial Option
+
+1.0.0.0
+* Changed output to ListView
+* Adjusted some internal processing
+

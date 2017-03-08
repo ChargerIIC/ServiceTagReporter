@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Tag Reporter", "Service Tag Reporter\Service Tag Reporter.csproj", "{232CC32F-3AB6-47B2-B1D7-5C2ABCE51F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTagTests", "ServiceTagTests\ServiceTagTests.csproj", "{9B8CC416-0C12-4DC8-A3CD-8E180497452B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6DD60A69-FF48-454F-ADD3-A6C1020AAD06}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DellWarranty", "DellWarranty\DellWarranty.fsproj", "{95F9BFC8-CC86-4A19-A688-1DC6C337D296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232CC32F-3AB6-47B2-B1D7-5C2ABCE51F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232CC32F-3AB6-47B2-B1D7-5C2ABCE51F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232CC32F-3AB6-47B2-B1D7-5C2ABCE51F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232CC32F-3AB6-47B2-B1D7-5C2ABCE51F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8CC416-0C12-4DC8-A3CD-8E180497452B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8CC416-0C12-4DC8-A3CD-8E180497452B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8CC416-0C12-4DC8-A3CD-8E180497452B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8CC416-0C12-4DC8-A3CD-8E180497452B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F9BFC8-CC86-4A19-A688-1DC6C337D296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F9BFC8-CC86-4A19-A688-1DC6C337D296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F9BFC8-CC86-4A19-A688-1DC6C337D296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F9BFC8-CC86-4A19-A688-1DC6C337D296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
